@@ -114,6 +114,7 @@ function equal(){
     str=str.replace("tan","Math.tan");
     str=str.replace("log10","Math.log10");
     str=str.replace("pow","Math.pow");
+    str=str.replace("PI","Math.PI");
     str=Math.round(eval(str) * 10) / 10;
     document.getElementById("display").innerHTML=str;
 }
