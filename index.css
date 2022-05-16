@@ -23,14 +23,13 @@ body {
     padding: 30px;
 }
 #howtouse{
-    height: 350px;
+    height: 400px;
     width: 350px;
     background-color: whitesmoke;
     margin: 15vh auto;
     border-radius: 40px;
     box-shadow: 7px 7px 10px rgb(0, 0, 0);
     padding: 30px;
-    rotate: (45deg);
 }
 #howtouse h2{
     padding: 10px;
