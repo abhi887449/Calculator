@@ -115,6 +115,6 @@ function equal(){
     str=str.replace("log10","Math.log10");
     str=str.replace("pow","Math.pow");
     str=str.replace("PI","Math.PI");
-    str=Math.round(eval(str) * 10) / 10;
+    str=Math.round(eval(str) * 10000000000) / 10000000000;
     document.getElementById("display").innerHTML=str;
 }
